@@ -14,3 +14,7 @@ const customerSlice = createSlice({
     }
 
 })
+
+// exporting action creator & reducer 
+export const {addCustomer} = customerSlice.actions;
+export default customerSlice.reducer;
